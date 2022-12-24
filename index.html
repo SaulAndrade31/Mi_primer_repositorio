@@ -4,65 +4,70 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="icon" href="./assets/Images/Icon.jpg">
     <title>Sport Saul</title>
 </head>
 <body>
     
-    <header> 
-    <div class="logo"><img src="./assets/Images/Icon.jpg" alt="logo" class="logo1">
-        <h1>Sport Saul</h1>
-     </div>
-<nav>
-    <div #divlistas>
-        <ul class="reseteoListas">
-            <li><a href="./pages/Inicia_session.html">Inicia sesion</a></li>
-            <li> <a href="./pages/Mujer.html">Mujer</a></li>
-            <li><a href="./pages/Hombre.html">Hombre</a></li>
-            <li><a href="./pages/Niños.html">Niños</a></li>
-            <li><a href="./pages/Soporte.html">Soporte</a></li>
-            <li> <a href="./index.html">Inicio</a> </li> </ul>
-    </div>
-</nav>
-<div id="div">
-    <input type="text" placeholder="busqueda" class="barra">  
-    <button class="boton">Buscar</button>   
-</div>
+    <header class="container-fluid"> 
+        <div class="row" >
+            <div class="col d-flex" ><img src="./assets/Images/Icon.jpg" alt="logo" class="logo1"  >
+                <h1>Sport Saul</h1>
+             </div>
+        <nav class="col" >
+            <div >
+                <ul class="reseteoListas d-flex justify-content-between">
+                    <li><a href="./pages/Inicia_session.html">Inicia sesion</a></li>
+                    <li> <a href="./pages/Mujer.html">Mujer</a></li>
+                    <li><a href="./pages/Hombre.html">Hombre</a></li>
+                    <li><a href="./pages/Niños.html">Niños</a></li>
+                    <li><a href="./pages/Soporte.html">Soporte</a></li>
+                    <li> <a href="./index.html">Inicio</a> </li> </ul>
+            </div>
+        </nav>
+        <div class="col" >
+            <button class="boton">Buscar</button> 
+            <input type="text" placeholder="busqueda" class="barra">   
+         </div>
+        </div>
 
 </header>
-<main id="maindeindex">
-    
-<div class="div1">
-    <p class="parrafo">
-        LA CASA DEL DEPORTE,
-        <br>
-        VISTE CON LA MEJOR CALIDAD.
-    </p>
-    <img id="img1" src="../Pre-Entrega_Saul Adrade/assets/Images/Vistete con nosotros.jpg" alt="imagen de una camiseta deportiva azul" >
-</div>
+<main class="container-fluid">
+   <div class="row">
+    <div class="col d-flex justify-content-between">
+        <p class="parrafo">
+            LA CASA DEL DEPORTE,
+            <br>
+            VISTE CON LA MEJOR CALIDAD.
+        </p>
+        <img id="img1" src="../Pre-Entrega_Saul Adrade/assets/Images/Vistete con nosotros.jpg" alt="imagen de una camiseta deportiva azul" >
+    </div>
+</div> 
+    <div class="row">
+        <div class="col d-flex justify-content-between">
+            <img id="img2" src="../Pre-Entrega_Saul Adrade/assets/Images/zapatillas runnig.jpg" alt="Imagen de zapatillas para correr">
+            <p class="parrafo2">
+                ENCONTRA TUS ZAPATILLAS <br>
+                PARA CORRER.
+            </p>
+        </div>    
 
-
-<div class="div2">
-    <p class="parrafo2">
-        ENCONTRA TUS ZAPATILLAS
-        <br>
-        PARA CORRE.
-    </p>
-
-    <img id="img2" src="../Pre-Entrega_Saul Adrade/assets/Images/zapatillas runnig.jpg" alt="Imagen de zapatillas para correr">
-</div>
-
+    </div>
 
 </main>
 
-<footer>
+<footer class="container-fluid">
+    <div>
         &copy;Saul Sport2022. Deportes y mucho mas. Todos los derechos reservados  
+    </div>
 
 </footer>
 
-
-
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" 
+integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 
 </body>
 </html>

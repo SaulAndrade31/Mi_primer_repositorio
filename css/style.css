@@ -5,124 +5,77 @@
     overflow-x: hidden;
 }
 body {
-
-    width: 100vw;
     height: 160vh;
     font-family: serif;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, 1fr);
-    grid-template-areas: 
-    "header header header"
-    "main main main"
-    "footer footer footer";
+   
 }
 .reseteoListas, a:link,
 a:visited, a:active {
     text-decoration: none;
     list-style: none;
     color: black;
-    align-self: center;
-    justify-self: end;
      }
 header {
-    width: 100vw;
     height: 15vh;
     background-color: #a8dadc;
-    grid-area: header;
-    display: grid;
-    grid-template-rows: 1fr;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-areas: 
-    "logo ul busqueda"; }   
+ }   
+
     h1 {
-        display: inline-block;
-        justify-content: space-between;
         font-weight: bold;
         font-size: 40px;
     }
     ul li {
-        display: inline-block;
-        grid-area: ul;
         padding: 3px;
-        font-size: 15px;
+        font-size: 20px;
     }
     #div{
         margin: 20px;
         justify-self: end;
         align-self: center;
-        grid-area: busqueda;
         font-size: 15px;
      }
-    .logo {
-        justify-content: space-between;
-        grid-area: logo;
-    }
     .logo1{
+        display: inline-block;
         width: 60px;
         height: 60px;
         border-radius: 25px;
     }
 main {
-    width: 100vw;
     height: 140vh;
     background-color:#f1faee;
-    grid-area: main;
-}
-#maindeindex{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(4, 1fr);
-    grid-template-areas: 
-    "div1 div1"
-    "div1 div1"
-    "div2 div2"
-    "div2 div2";
- }
-.div1{
-    grid-area: div1;
-
-}
-.div2{
-    grid-area: div2;
 }
 .parrafo {
-    display: inline-block;
-    align-items: center;
     font-size: 3rem;
     font-weight: bold;
     padding: 100px 10px 70px 10px;
 }
 .parrafo2 {
-    display: inline-block;
-   justify-content: space-around;
     font-size: 3rem;
     font-weight: bold;
     padding: 100px 10px 70px 10px;
 }
 #img1 {
     border-radius: 15px;
-    float: right;
     width: 40vw;
     height: 60vh;
  }
  #img2 {
     border-radius: 15px;
-    float: left;
     width: 40vw;
     height: 60vh;
  }
 footer {
-    width: 100vw;
     height: 5vh;
     background-color: #a8dadc;
     text-align: center;   
     padding: 10px;
-    grid-area: footer;
+    overflow: hidden;
+    font-weight: bold;
 }
 
  .datos {
     display: inline-block;
+
  }
  .principal {
     display: inline-block;
@@ -142,8 +95,6 @@ footer {
     font-size: 15px;
     margin-bottom: 40px;
 }
-label {
+label { 
     margin: 20x;
 }
-
- 
