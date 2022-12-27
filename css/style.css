@@ -1,13 +1,10 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    overflow-x: hidden;
+
 }
 body {
-    height: 160vh;
     font-family: serif;
-   
 }
 .reseteoListas, a:link,
 a:visited, a:active {
@@ -16,10 +13,17 @@ a:visited, a:active {
     color: black;
      }
 header {
-    height: 15vh;
     background-color: #a8dadc;
  }   
-
+ #imgniños{
+    height: 35rem;
+ }
+ #imgym{
+    height: 35rem;
+ }
+ #imgslider{
+    height: 35rem;
+ }
     h1 {
         font-weight: bold;
         font-size: 40px;
@@ -28,31 +32,22 @@ header {
         padding: 3px;
         font-size: 20px;
     }
-    #div{
-        margin: 20px;
-        justify-self: end;
-        align-self: center;
-        font-size: 15px;
-     }
     .logo1{
-        display: inline-block;
-        width: 60px;
-        height: 60px;
-        border-radius: 25px;
+        width: 70px;
+        height: 70px;
+        border-radius: 50px;
     }
 main {
-    height: 140vh;
+
     background-color:#f1faee;
 }
 .parrafo {
     font-size: 3rem;
     font-weight: bold;
-    padding: 100px 10px 70px 10px;
 }
 .parrafo2 {
     font-size: 3rem;
     font-weight: bold;
-    padding: 100px 10px 70px 10px;
 }
 #img1 {
     border-radius: 15px;
@@ -64,27 +59,26 @@ main {
     width: 40vw;
     height: 60vh;
  }
+ #iniciass{
+    border: 10px;
+ }
+ #imgbalon{
+ width: 70%;
+ height: 70%;
+ }
 footer {
-    height: 5vh;
     background-color: #a8dadc;
     text-align: center;   
     padding: 10px;
     overflow: hidden;
     font-weight: bold;
 }
-
  .datos {
     display: inline-block;
-
- }
- .principal {
-    display: inline-block;
  }
 
- .principal {
-    display: inline-block;
+ #principal {
     font-size: 3rem;
-    text-align: center;
  }
  form {
     width: 200px;
@@ -94,6 +88,7 @@ footer {
     padding: 5px;
     font-size: 15px;
     margin-bottom: 40px;
+    
 }
 label { 
     margin: 20x;

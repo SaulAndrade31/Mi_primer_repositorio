@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" 
     integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/style.css">
@@ -15,7 +16,7 @@
     <header class="container-fluid"> 
         <div class="row" >
             <div class="col d-flex" ><img src="./assets/Images/Icon.jpg" alt="logo" class="logo1"  >
-                <h1>Sport Saul</h1>
+                <h1 class="d-flex align-items-center ">Sport Saul</h1>
              </div>
         <nav class="col" >
             <div >
@@ -28,31 +29,63 @@
                     <li> <a href="./index.html">Inicio</a> </li> </ul>
             </div>
         </nav>
-        <div class="col" >
+        <div class="col d-flex justify-content-end align-items-center" >
             <button class="boton">Buscar</button> 
             <input type="text" placeholder="busqueda" class="barra">   
          </div>
         </div>
 
 </header>
+
 <main class="container-fluid">
    <div class="row">
-    <div class="col d-flex justify-content-between">
-        <p class="parrafo">
+    <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./assets/Images/Niños.jpg" class="d-block w-100   " alt=".ropa de niñ@s" id="imgniños">
+          </div>
+          <div class="carousel-item">
+            <img src="./assets/Images/rop.aen.gym.jpg" class="d-block w-100" alt="ropa de gym" id="imgym">
+          </div>
+          <div class="carousel-item">
+            <img src="./assets/Images/slider.jpg" class="d-block w-100" alt=".ropA DEP" id="imgslider">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+</div> 
+   <div class="row">
+     <div class="col d-flex justify-content-between">
+        <p class="parrafo d-flex align-items-center justify-content-end">
             LA CASA DEL DEPORTE,
             <br>
             VISTE CON LA MEJOR CALIDAD.
         </p>
-        <img id="img1" src="../Pre-Entrega_Saul Adrade/assets/Images/Vistete con nosotros.jpg" alt="imagen de una camiseta deportiva azul" >
+        <img id="img1" data-aos="flip-up" src="../Pre-Entrega_Saul Adrade/assets/Images/Vistete con nosotros.jpg" alt="imagen de una camiseta deportiva azul" >
     </div>
-</div> 
+
+   </div>
+   
     <div class="row">
         <div class="col d-flex justify-content-between">
-            <img id="img2" src="../Pre-Entrega_Saul Adrade/assets/Images/zapatillas runnig.jpg" alt="Imagen de zapatillas para correr">
-            <p class="parrafo2">
-                ENCONTRA TUS ZAPATILLAS <br>
-                PARA CORRER.
-            </p>
+            <img id="img2" data-aos="fade-down-right" src="../Pre-Entrega_Saul Adrade/assets/Images/zapatillas runnig.jpg" alt="Imagen de zapatillas para correr">
+            <div class="parrafo2 d-flex align-items-center justify-content-end">
+                <p>
+                    ENCONTRA TUS ZAPATILLAS <br>
+                    PARA CORRER.
+                </p>
+            </div>
         </div>    
 
     </div>
@@ -60,12 +93,36 @@
 </main>
 
 <footer class="container-fluid">
-    <div>
-        &copy;Saul Sport2022. Deportes y mucho mas. Todos los derechos reservados  
+            
+    <div class="row" class="d-flex">
+        <div class="col">
+            &copy;Saul Sport2022. Deportes y mucho mas. Todos los derechos reservados
+        </div>
+        
+        <div class="col d-flex justify-content-evenly">
+         <i>
+            <img src="./assets/Images/facebook.svg" alt="icon">
+         </i>
+         <i>
+            <img src="./assets/Images/instagram.svg" alt="icono de instagram">
+         </i>
+         <i>
+            <img src="./assets/Images/twitter.svg" alt="icono de twitter">
+         </i>
+         <i>
+            <img src="./assets/Images/whatsapp.svg" alt="icono de whatsapp">
+         </i>
+         
+        </div>
+    
+        
     </div>
-
 </footer>
 
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" 
 integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 
