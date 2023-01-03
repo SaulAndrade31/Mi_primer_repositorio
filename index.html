@@ -15,11 +15,15 @@
     
     <header class="container-fluid"> 
         <div class="row" >
-            <div class="col d-flex" ><img src="./assets/Images/Icon.jpg" alt="logo" class="logo1"  >
+            <div class="col-sm-4 d-flex" ><img src="./assets/Images/Icon.jpg" alt="logo" class="logo1"  >
                 <h1 class="d-flex align-items-center ">Sport Saul</h1>
              </div>
-        <nav class="col" >
-            <div >
+        <nav class="col-sm-4" class="navbar navbar-expand-sm navbar-dark d-flex align-items-end">
+          <button class="btn btn-primary" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#coll" >
+            <span class="navbar-toggler-icon">Menu</span>
+          </button>
+        
+            <div class="collapse navbar-collapse" id="coll">
                 <ul class="reseteoListas d-flex justify-content-between">
                     <li><a href="./pages/Inicia_session.html">Inicia sesion</a></li>
                     <li> <a href="./pages/Mujer.html">Mujer</a></li>
@@ -29,7 +33,7 @@
                     <li> <a href="./index.html">Inicio</a> </li> </ul>
             </div>
         </nav>
-        <div class="col d-flex justify-content-end align-items-center" >
+        <div class="col-sm-4 d-flex justify-content-end align-items-center" >
             <button class="boton">Buscar</button> 
             <input type="text" placeholder="busqueda" class="barra">   
          </div>
@@ -37,7 +41,7 @@
 
 </header>
 
-<main class="container-fluid">
+<main class="container-fluid" class="maindex">
    <div class="row">
     <div id="carouselExampleIndicators" class="carousel slide">
         <div class="carousel-indicators">
@@ -66,28 +70,32 @@
         </button>
 </div> 
    <div class="row">
-     <div class="col d-flex justify-content-between">
+     <div class="col-sm-7 d-flex justify-content-center">
         <p class="parrafo d-flex align-items-center justify-content-end">
             LA CASA DEL DEPORTE,
             <br>
             VISTE CON LA MEJOR CALIDAD.
         </p>
-        <img id="img1" data-aos="flip-up" src="./assets/Images/Equipate.jpg" alt="imagen de una camiseta deportiva azul" >
+        
+       
     </div>
-
+<div class="col-sm-5 d-flex justify-content-center">
+           <img id="img1" data-aos="flip-up" src="./assets/Images/Equipate.jpg" alt="imagen de una camiseta deportiva azul" >
+        </div>
    </div>
    
     <div class="row">
-        <div class="col d-flex justify-content-between">
+      
+        <div class="col-sm-5 d-flex justify-content-center">
             <img id="img2" data-aos="fade-down-right" src="./assets/Images/run.jpg" alt="Imagen de zapatillas para correr">
-            <div class="parrafo2 d-flex align-items-center justify-content-end">
-                <p>
-                    ENCONTRA TUS ZAPATILLAS <br>
-                    PARA CORRER.
-                </p>
-            </div>
+          
         </div>    
-
+        <div class="col-sm-7 parrafo2 d-flex align-items-center justify-content-center">
+          <p>
+              ENCONTRA TUS ZAPATILLAS <br>
+              PARA CORRER.
+          </p>
+      </div>
     </div>
 
 </main>
