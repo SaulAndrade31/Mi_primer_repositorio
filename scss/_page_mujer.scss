@@ -1,0 +1,24 @@
+#imgcorriendo {
+    height: $height1 + 10px;
+}
+#imgsl {
+    height: $height1 - 35px;
+}
+.p1{
+    background-color: map-get($theme-colors, "bg-primary" );
+    }
+  
+    .imgM1 {
+       width:  $width * 4; 
+        height: $height1 + 100px;
+         }
+  
+     .bM {
+        background-color: map-get($theme-colors, "bg-primary" );
+     }
+     
+
+   
+     
+
+

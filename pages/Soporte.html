@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Sport Saul es una tienda deportiva, donde vendemos todo producto para hacer deporte">
+    <meta name="keywords"  content="deporte, zapatillas, remeras, ropa, tienda, sport, saul">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" 
     integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/style.css">
@@ -12,39 +14,201 @@
 </head>
 <body>
     <header class="container-fluid">
-        <div class="row">
-            <div class="logo d-flex col"><img src="../assets/Images/Icon.jpg" alt="logo" class="logo1">
+        <div class="row ">  
+            <div class="col d-flex align-items-center" class="logo">
+              <img src="../assets/Images/Icon.jpg" alt="logo" class="logo1">
                 <h1>Sport Saul</h1>
-             </div>
-    
-            <nav class="col">
-                <ul class="reseteoListas d-flex justify-content-between">
-                    <li><a href="./Formulario.html">Inicia sesion</a></li>
-                    <li> <a href="./Mujer.html">Mujer</a></li>
-                    <li><a href="./Hombre.html">Hombre</a></li>
-                    <li><a href="./Niños.html">Niños</a></li>
-                    <li><a href="./Soporte.html">Soporte</a></li>
-                    <li> <a href="../index.html">Inicio</a> </li>
-                </ul>
+
+                <!--menu colapsable-->
+
+                <nav class="navbar navbar-expand-md NAVBAR-DARK">
+                    <div class="container-fluid">    
+                      <a class="navbar-brand" href="./assets/Images/Icon.jpg">
+                        
+                      </a>
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="menu">
+                        <ul class="navbar-nav ms-auto reseteoListas">
+                            <li class="nav-item"><a class="nav-link active" href="./Soporte.html">Soporte</a></li>
+                          <li class="nav-item"><a class="nav-link" href="./Formulario.html">Formulario</a></li>
+                          <li class="nav-item"> <a class="nav-link" href="./Mujer.html">Mujer</a></li>
+                          <li class="nav-item"><a class="nav-link" href="./Hombre.html">Hombre</a></li>
+                          <li class="nav-item"><a class="nav-link" href="./Ninos.html">Niños</a></li>
+                          <li class="nav-item"> <a class="nav-link" href="../index.html">Inicio</a> </li>
+                      </ul>
+                      </div>
+                      </div>
             
+         <!--barra de navegacion-->
+
             </nav>
             <div class="col d-flex align-items-center justify-content-end">
                 <button class="boton">Buscar</button>
                 <input type="text" placeholder="busqueda" class="barra">     
-            </div>
+            </div>    
         </div>
-       
     </header>
-    <main>
+    <main class="container-fluid">
+
+        <!--acordion de preguntas frecuentes-->
+
+        <div class="row" >
+            <p class="col h1 d-flex justify-content-center">PREGUNTAS FRECUENTES</p> <br>
+            
+        </div>
+     <div class="row container">
+        <div class="col">
+           <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingOne">
+                <button class="fs-5 accordion-button collapsed  primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    ¿Cuales son los medios de pago disponibles?
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse " aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                <div class="accordion-body danger">
+                  <strong>Podrás abonar tus pedidos con Tarjeta de Crédito o por Mercado Pago a través de Cupones de Pago.</strong>
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingTwo">
+                <button class="fs-5 accordion-button collapsed  primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    ¿Es seguro pagar con mi tarjeta de crédito en Sport Saul?
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                <div class="accordion-body danger">
+                  <strong>Sí, es seguro. Entendemos que la seguridad de tu información personal es de suma importancia para vos.
+                     Cumplimos con el estándar de protección de datos, para que tu información personal
+                     y de tarjeta de crédito, esté protegida de accesos no autorizados.</strong> 
+                </div>
+              </div>
+            </div>
+            
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingThree">
+                <button class=" fs-5 accordion-button collapsed  primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        Algo que compre no me satisface 100%. ¿Puedo cambiarlo?         
+               </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                <div class="accordion-body danger">
+                  <strong>Sí, podés elegir cualquier otro producto. Si existiera diferencia de precio entre el producto devuelto y el producto nuevo, esta deberá ser abonada. Los cambios serán tomados al
+                       precio del producto que figure en la factura original de compra excluyendo el costo del envío.
+                       Tené en cuenta que para los productos identificados como LIQUIDACIÓN los cambios estarán condicionados a la disponibilidad de stock.
+                       En el caso de querer cambiarlo por otro producto, podrás hacerlo eligiendo cualquier artículo.</strong> 
+                </div>
+              </div>
+            </div>
+         </div>
+        </div>
+    </div>
+
+        <div class="row">
+            <p class="col h2 d-flex justify-content-center">CAMBIOS Y DEVOLUCIONES</p> <br>
+        </div >
+
+       <div class="row container">
+        <div class="col">
+            <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingfive">
+                    <button class="fs-5 accordion-button collapsed  primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="true" aria-controls="collapseFive">
+                        ¿Cuánto tiempo tengo para hacer un cambio?   
+                     </button>
+                  </h2>
+                  <div id="collapseFive" class="accordion-collapse collapse " aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+                    <div class="accordion-body danger">
+                      <strong>Tenés hasta 30 (treinta) días consecutivos desde la recepción del producto para realizar el cambio deseado. 
+                        El producto adquirido debe presentar las mismas condiciones en las que fue recibido o comprado, en perfectas condiciones, etiqueta y envoltorio original.
+                     Para hacer efectivo el cambio es obligatorio llevar la factura impresa. En el caso de tratarse de un cambio por falla contás con 180 (ciento ochenta) días consecutivos desde la recepción del producto para realizar el reclamo correspondiente.</strong>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingsix">
+                      <button class="fs-5 accordion-button collapsed  primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapsesix" aria-expanded="false" aria-controls="collapsesix">
+                        ¿Realizar un cambio tiene un costo?
+                      </button>
+                    </h2>
+                    <div id="collapsesix" class="accordion-collapse collapse" aria-labelledby="headingsix" data-bs-parent="#accordionExample">
+                      <div class="accordion-body danger">
+                        <strong>¡El primer cambio es gratis! Tanto en sucursal como a domicilio.</strong> 
+                      </div>
+                    </div>
+                  </div>
+
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingFour">
+                  <button class=" fs-5 accordion-button collapsed primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                    ¿Se realizan cambios a domicilio?       
+                 </button>
+                </h2>
+                <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                  <div class="accordion-body danger">
+                    <strong>Sí. El primer cambio es gratis. 
+                        Podés elegir realizar el cambio en cualquiera de nuestras sucursales (sujeto a disponibilidad de stock de la sucursal) o en tu domicilio gratuitamente.</strong> 
+                  </div>
+                </div>
+              </div>
+        </div>
+       </div>
+    </div>
+
+
+        
+       <div class="row">
+        <p class="col h2  d-flex justify-content-center">¿QUIENES SOMOS?</p> <br>
+    </div >
+    <div class="row container">
+        <div class="col-md-8">
+            <p class="fs-5"> 
+                Somos un tiena con una mision clara, y vivimos entrenando para ganar y conquistar a los consumidores ofreciendo una experiencia premium.
+                 Hablamos a través del deporte y de la moda con el objetivo de acompañarlos en cada momento de sus vidas para que puedan competir, entrenar o lucir su estilo personal, transmitiendo inspiración e innovación.
+                Y nuestra vision es ser el retailer líder en ventas y en servicio al cliente, siendo siempre cercano al consumidor.
+            </p>
+        </div>
+        <div class="col-md-4 d-flex justify-content-center">
+            <img id="imgsaul" src="../assets/Images/soport.jpg" alt="Jugador de futbol">
+
+        </div>
+    </div>
         
     </main>
 
     
-<footer>
-    
-    &copy;Saul Sport2022. Deportes y mucho mas. Todos los derechos reservados
-
-</footer>
+    <footer class="container-fluid">
+            
+        <div class="row" class="d-flex">
+            <div class="col">
+                <div class="col d-flex align-items-center" class="logo"><img src="../assets/Images/Icon.jpg" alt="logo" class="logo1">
+                &copy;Saul Sport2022. Deportes y mucho mas. Todos los derechos reservados
+            </div>
+        </div>
+            
+            <div class="col d-flex justify-content-evenly">
+             <i>
+                <img src="../assets/Images/facebook.svg" alt="icon">
+             </i>
+             <i>
+                <img src="../assets/Images/instagram.svg" alt="icono de instagram">
+             </i>
+             <i>
+                <img src="../assets/Images/twitter.svg" alt="icono de twitter">
+             </i>
+             <i>
+                <img src="../assets/Images/whatsapp.svg" alt="icono de whatsapp">
+             </i>
+             
+            </div>
+        
+            
+        </div>
+         </footer>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" 
 integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
     

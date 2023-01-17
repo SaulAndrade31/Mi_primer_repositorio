@@ -1,0 +1,40 @@
+main{
+   
+   background-color: map-get($theme-colors, "bk-color" );
+   
+     #imgniños{
+        height: $height;
+     }
+     #imgym{
+        height: $height;
+     }
+     #imgslider{
+        height: $height;
+     }.parrafo {
+        font-size: 3rem;
+        font-weight: $negrita;
+    }
+    .parrafo2 {
+        font-size: 3rem;
+        font-weight: $negrita;
+    }
+    #img1 {
+        border-radius: 15px;
+        width: 40vw;
+        height: $heightimg;
+     }
+     #img2 {
+        border-radius: 15px;
+        width: 40vw;
+        height: $heightimg;
+     }
+     #iniciass{
+        border: 10px;
+     }
+     #imgbalon{
+     width: 70%;
+     height: 70%;
+     border-color: map-get($theme-colors, "bg-primary" );
+     }
+     
+}

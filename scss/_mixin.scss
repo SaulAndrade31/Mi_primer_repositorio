@@ -1,0 +1,9 @@
+@mixin footer ($padding, $overflow, $font-weight ) {
+    padding: 10px;
+    overflow: hidden;
+    font-weight: $negrita;
+}
+@mixin form ($width, $margin) {
+    width: $width ;
+    margin: auto;
+}

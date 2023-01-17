@@ -1,0 +1,15 @@
+form {
+   @include form ($width + 100px, auto );
+    label { 
+        margin: 20x;
+    
+     }
+     .input {
+        padding: 5px;
+        font-size: 15px;
+        margin-bottom: 40px;
+    }
+}
+#principal {
+    font-size: 3rem;
+ }

@@ -1,0 +1,15 @@
+header {
+    background-color: map-get($theme-colors, "bg-primary" );
+  
+     h1 {
+        font-weight: $negrita;
+        font-size: 40px;
+    }
+    }
+    .logo1{
+        width: $width - 30px;
+        height: $height1 - 230px;
+        border-radius: 50px;
+
+    }
+  

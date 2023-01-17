@@ -1,0 +1,10 @@
+#imgsaul{
+    height: $height1;
+    width: ($width * 2) + 60;
+}
+.danger {
+    background-color: map-get($theme-colors, "bg-primary" );
+}
+.primary{
+    background-color: map-get($theme-colors, "bg-primary" );
+}
