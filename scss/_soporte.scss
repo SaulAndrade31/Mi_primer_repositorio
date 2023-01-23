@@ -3,7 +3,7 @@
     width: ($width * 2) + 60;
 }
 .danger {
-    background-color: map-get($theme-colors, "bg-primary" );
+    background-color: map-get($theme-colors, "bk-color" );
 }
 .primary{
     background-color: map-get($theme-colors, "bg-primary" );
