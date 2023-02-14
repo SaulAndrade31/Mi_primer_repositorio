@@ -18,14 +18,14 @@
     <header class="container-fluid">
 
         <div class="row ">  
-            <div class="col-md-3 d-flex align-items-center" class="logo"><img src="../assets/images/icon.jpg" alt="logo" class="logo1">
+            <section class="col-lg-3 d-flex align-items-center" class="logo"><img src="../assets/images/icon.jpg" alt="logo" class="logo1">
                 <h1>Sport Saul</h1>
-                 </div>
+            </section>
 
 <!--menu colapsable-->
 
-        <div class="col-md-3">
-              <nav class="navbar navbar-expand-md NAVBAR-DARK">
+        <section class="col-lg-4">
+            <nav class="navbar navbar-expand-md NAVBAR-DARK">
                     <div class="container-fluid">    
                       <a class="navbar-brand" href="../assets/Images/Icon.jpg">
                         
@@ -35,26 +35,26 @@
                     </button>
                     <div class="collapse navbar-collapse" id="menu">
                         <ul class="navbar-nav ms-auto reseteoListas">
+                            <li class="nav-item"> <a class="nav-link" href="../index.html">Inicio</a> </li>
                           <li class="nav-item"><a class="nav-link active" href="../pages/Formulario.html">Formulario</a></li>
                           <li class="nav-item"> <a class="nav-link" href="./Mujer.html">Mujer</a></li>
                           <li class="nav-item"><a class="nav-link" href="./Hombre.html">Hombre</a></li>
                           <li class="nav-item"><a class="nav-link" href="./Soporte.html">Soporte</a></li>
-                          <li class="nav-item"> <a class="nav-link" href="../index.html">Inicio</a> </li>
                       </ul>
                       </div>
                       </div>
-            
+                      
             </nav>
-                 </div>
+        </section>
 
                 
 
             <!--Barra de busqueda-->
 
-            <div class="col-md-6 d-flex align-items-center justify-content-end">
+            <section class="col-lg-5 d-flex align-items-center justify-content-end">
                 <button class="boton">Buscar</button>
                 <input type="busqueda" placeholder="busqueda" class="barra">     
-            </div>    
+            </section>   
         </div>
 
     </header>
@@ -64,7 +64,7 @@
         <!--Formulario-->
 
         <div class="row ">
-            <div class="col-md">
+            <section class="col-md">
                 <div class="d-flex justify-content-center" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
                     <img src="../assets/images/inicia sesion.jpg" class="rounded-circle border border-info-subtle" alt="Inicia sesion">
                 </div>
@@ -98,28 +98,34 @@
                     <input type="radio" name="Genero" value="Femenino" class="input">Femenino
                 </label>
                 <div class="d-flex justify-content-center btn-group" role="group" aria-label="Basic example" >
-                    <input type="reset" class="btn btn-outline primary" value="Resetear" class="input">
-                    <input type="submit" class="btn btn-outline primary" value="enviar" class="input">
+                    <input type="reset" class="btn btn-outline colorf fw-bold" value="Resetear" class="input">
+                    <input type="submit" class="btn btn-outline colorf fw-bold" value="Enviar" class="input">
                 </div>
             </form>   <br>    
             
-        </div>
+            </section>
+            
+         </div>
         
-        </main>
+        </main> 
 
 <!--footer-->
 
-        <footer class="container-fluid">
+<footer class="container-fluid">
             
     <div class="row" class="d-flex">
+      <div class="col">
+        <section class=" d-flex align-items-center" class="logo">
+          <img src="../assets/images/icon.jpg" alt="logo" class="logo1">
+        &copy;Saul Sport2022. Deportes y mucho mas. Todos los derechos reservados
+
+        </section> 
+      </div>
+
         <div class="col">
-            <div class="col d-flex align-items-center" class="logo"><img src="../assets/images/icon.jpg" alt="logo" class="logo1">
-            &copy;Saul Sport2022. Deportes y mucho mas. Todos los derechos reservados
-        </div>
-    </div>
-        
-        <div class="col d-flex justify-content-evenly">
-         <i>
+
+       <section class=" d-flex justify-content-evenly">
+          <i>
             <img src="../assets/images/facebook.svg" alt="icon">
          </i>
          <i>
@@ -131,12 +137,14 @@
          <i>
             <img src="../assets/images/whatsapp.svg" alt="icono de whatsapp">
          </i>
-         
+       </section>
+
         </div>
-    
+
+     </div>
         
-    </div>
-     </footer>
+</footer>
+
      <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 <script>
   AOS.init();

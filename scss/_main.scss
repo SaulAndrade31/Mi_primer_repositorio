@@ -3,13 +3,10 @@ main{
    background-color: map-get($theme-colors, "bk-color" );
    
      }.parrafo {
-        font-size: 3rem;
+        font-size: 1.7rem;
         font-weight: $negrita;
     }
-    .parrafo2 {
-        font-size: 3rem;
-        font-weight: $negrita;
-    }
+  
     #img1 {
         border-radius: 15px;
         width: 40vw;

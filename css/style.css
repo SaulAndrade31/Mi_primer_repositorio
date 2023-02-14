@@ -3,7 +3,8 @@
   padding: 0; }
 
 body {
-  font-family: serif; }
+  font-family: serif;
+  background-color: #a8dadc; }
 
 footer {
   background-color: #a8dadc;
@@ -24,8 +25,11 @@ form {
 #principal {
   font-size: 3rem; }
 
+.colorf {
+  background-color: #457b9d; }
+
 header {
-  background-color: #a8dadc; }
+  background-color: #457b9d; }
   header h1 {
     font-weight: bold;
     font-size: 40px; }
@@ -39,11 +43,7 @@ main {
   background-color: #f1faee; }
 
 .parrafo {
-  font-size: 3rem;
-  font-weight: bold; }
-
-.parrafo2 {
-  font-size: 3rem;
+  font-size: 1.7rem;
   font-weight: bold; }
 
 #img1 {
@@ -76,7 +76,8 @@ main {
   height: 330px; }
 
 .bM {
-  background-color: #a8dadc; }
+  background-color: #457b9d;
+  color: #000; }
 
 .imgH1 {
   width: 380px;

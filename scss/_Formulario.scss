@@ -13,3 +13,6 @@ form {
 #principal {
     font-size: 3rem;
  }
+.colorf {
+    background-color: map-get($theme-colors, "bg-header" );
+}
