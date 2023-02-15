@@ -37,7 +37,8 @@ header {
 .logo1 {
   width: 70px;
   height: 70px;
-  border-radius: 50px; }
+  border-radius: 50px;
+  margin: 5px; }
 
 main {
   background-color: #f1faee; }
